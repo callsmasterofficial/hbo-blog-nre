@@ -1,3 +1,33 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base{
+    body{
+        @apply bg-black overflow-x-hidden
+     
+    }
+}
+
+@layer components{
+    .btn{
+       @apply  w-64 justify-center flex items-center bg-white rounded-[4px]
+    }
+
+    .primary{
+        @apply bg-white
+    }
+
+    .secondary{
+        @apply bg-black
+    }
+
+    .primary_text_color{
+        @apply text-white
+    }
+
+    .secondary_text_color{
+        @apply text-black
+    }
+}
+
