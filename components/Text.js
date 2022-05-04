@@ -22,10 +22,10 @@ function Text() {
       {/* Second text contaner start here */}
       <div className="second-container mb-10  flex">
         <div className="innner-text-container m-auto -mt-[20px]  md:flex w-[80%] md:mt-0">
-          <div className="paragraph-box w-[100%] md:w-[50%] ">
+          <div className="paragraph-box w-[100%] md:w-[50%] pt-5">
             <div className="p-tag primary_text_color mb-[28px] mr-[20px] p-[4px] font-normal" dangerouslySetInnerHTML={{__html:siteConfig.section.first.html}} />
             {/* button tag start here */}
-            <div className='mt-6 md:mt-12 flex items-center justify-center'>
+            <div className='mt-6 md:mt-12'>
             <InstallButton />
             </div>
           </div>
@@ -44,10 +44,10 @@ function Text() {
       {/* middle buttons */}
 
       {/* after video text section  */}
-      <div className="after-video-container -mt-14  md:mt-14">
+      <div className="after-video-container -mt-14  md:mt-14" style={{background: "#242424", padding:" 50px 0"}}>
         <div className="text-box  m-auto mb-5  w-[80%]">
-          <div className="text flex justify-center border-b-2 border-white ">
-            <h3 className="primary_text_color text-xl mb-5 md:text-[30px] font-bold">
+          <div className="text flex justify-center ">
+            <h3 className="primary_text_color text-xl md:text-[30px] font-bold">
               {siteConfig.section.second.heading}
             </h3>
           </div>
@@ -62,7 +62,7 @@ function Text() {
           {/* afterborder_video & text*/}
           <div className="m-auto mb-24 w-[95%]">
             <div className="main-video-text-container mt-5 md:flex ">
-              <div className="video-box w-[100%] -mt-6 m-auto md:mr-[24px] md:w-[50%] md:mt-0">
+              <div className="video-box w-[100%] -mt-6 m-auto md:mr-[24px] md:w-[50%] md:mt-0 pt-[30px]">
                 <video className="video " controls autoPlay muted>
                   <source
                     src={siteConfig.section.second.video}
@@ -78,7 +78,7 @@ function Text() {
             </div>
           </div>
           {/* text & video ends here */}
-          <div className='w-[100%] -mt-10  flex items-center justify-center md:w-[50%] md:mt-0'> 
+          <div className='w-[100%] -mt-10  flex justify-center items-center md:w-[100%]  md:mt-0'> 
           <InstallButton />
           </div>
         </div>

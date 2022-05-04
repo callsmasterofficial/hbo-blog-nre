@@ -14,7 +14,7 @@ const Home: NextPage = () => {
     <div className="">
       <Head>
         <title>Hbo-Watch</title>
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/favicon.ico" style={{objectFit: "contain"}} />
       </Head>
       <Head>
         <link

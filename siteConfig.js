@@ -76,42 +76,42 @@ export default {
         'https://super-dashboard-images-cdn.s3.amazonaws.com/videos/Customize-your-HBO-Max-Watch.mp4',
       accordian: [
         {
-          id: 1,
+          id: "t1",
           question: 'Stream HBO in HD',
           answer:
             'You will be able to enjoy fast buffering in HD quality. Therefore, you can stream your favorite shows with your friends via HBO Watch Party in complete HD quality.',
         },
 
         {
-          id: 2,
+          id: "t2",
           question: 'User-friendly',
           answer:
             'It is a user-friendly extension that provides you with the best-in-class HBO streaming experience in perfect synchronization with people from different locations.',
         },
 
         {
-          id: 3,
+          id: "t3",
           question: 'Chat during watch party',
           answer:
             'You can chat with your friends with the chat feature of the HBO Watch Party extension.',
         },
 
         {
-          id: 4,
+          id: "t4",
           question: 'Customize your profile',
           answer:
             'You can also customize your HBO Watch Party extension profile by editing your profile icon or name. You can use the avatars as your profile icon. Moreover, the icon and your profile name will be visible during the group chat or while watching the party.',
         },
 
         {
-          id: 5,
+          id: "t5",
           question: 'Create or Join Party from anywhere',
           answer:
             'HBO Max Watch Party gives you the power to stay connected with your favorite people no matter how far you are from them. You can install the extension anywhere in the world and create or join fun HBO parties!.',
         },
 
         {
-          id: 6,
+          id: "t6",
           question: 'Various Device Compatibility',
           answer:
             'You can use the extension on all of the Windows, macOS, or Chromebook laptops, and PCs.',
@@ -122,21 +122,21 @@ export default {
   faq: {
     accordian: [
       {
-        id: 1,
+        id: "f1",
         question: 'What can I do with the HBO Max Watch Party extension?',
         answer:
           'You can use the extension to create or join virtual movie parties and watch HBO Max shows with people living afar. Moreover, the extension enables you to watch any show from HBO Max in HD quality and perfect sync. Furthermore, you also get to chat with your friends while watching the movie.',
       },
 
       {
-        id: 2,
+        id: "f2",
         question: 'How can I install the extension?',
         answer:
           'You can install the extension by clicking here. Moreover, after installing the extension, you should add the extension to the toolbar of the browser.',
       },
 
       {
-        id: 3,
+        id: "f3",
         question: 'What is the process to host an HBO Max Party?',
         answer:
           'Yes, it has the chat function, which allows you to chat while streaming with the other participants..',
@@ -148,7 +148,7 @@ export default {
       },
 
       {
-        id: 4,
+        id: "f4",
         question: 'What is the process to host an HBO Max Party?',
         answer:
           'You can create a watch party easily by following the below steps: – .',
@@ -160,14 +160,14 @@ export default {
       },
 
       {
-        id: 5,
+        id: "f5",
         question: 'What is the process to join an HBO Max Party?',
         answer:
           'You can join the watch party and watch HBO with friends in a few steps Install the extension and add it to the toolbar. Now, log in to the HBO Max account.  After this, click on the watch party link and enjoy the party..',
       },
 
       {
-        id: 6,
+        id: "f6",
         question:
           'How many people can join a single watch party on the HBO Watch Party extension?',
         answer:
@@ -175,7 +175,7 @@ export default {
       },
 
       {
-        id: 7,
+        id: "f7",
         question: 'Can I join the HBO Max Watch Party from another country?',
         answer:
           'You can join the virtual party from anywhere. Although it is mandatory for the participants to be in the same country, if any member lives in another country, they should use the VPN.',

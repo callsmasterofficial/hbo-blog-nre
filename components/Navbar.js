@@ -12,7 +12,7 @@ function Navbar() {
             <img src={siteConfig.logo} alt={siteConfig.siteName} />
           </div>
         </Link>
-        <div className='ml-3 mt-4  md:m-0 lg:m-0 xl:m-0'>
+        <div className='ml-0 mt-4  md:m-0 lg:m-0 xl:m-0'>
         <InstallButton />
         </div>
       </div>

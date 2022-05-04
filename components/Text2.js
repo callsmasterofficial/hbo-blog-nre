@@ -6,8 +6,8 @@ import InstallButton from './InstallButton'
 function Text2() {
   
   return (
-    <div className="text2-container   m-auto  mt-14 w-[80%] ">
-      <div className="text2-inner_container  md:mt-0 border-b-2  border-white">
+    <div className="text2-container   m-auto  mt-14 w-[80%] " style={{backgroundColor: "black "}} >
+      <div className="text2-inner_container  md:mt-0 ">
         <div className="text-box flex items-center justify-center ">
           <h3 className="primary_text_color text-2xl -mt-8 mb-5 p-2 md:text-3xl md:mt-0 font-semibold">
            {siteConfig.section.three.heading}
@@ -28,13 +28,13 @@ function Text2() {
         </div>
         {/* text ends here */}
         {/* video start here */}
-        <div className="video-box mt-14 ml-2 md:w-[50%] md:mt-0">
+        <div className="video-box mt-14 ml-2 md:w-[50%] md:mt-0 " style={{paddingTop: "30px"}}>
           <video controls autoPlay muted>
             <source src={siteConfig.section.three.video} />
           </video>
         </div>
       </div>
-      <div className='flex items-center justify-center md:items-end md:justify-end md:w-[90%]  mt-12'>
+      <div className='flex items-center justify-center   md:w-[100%]  mt-12'>
       <InstallButton />
       </div>
     </div>
