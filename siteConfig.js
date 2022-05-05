@@ -1,10 +1,11 @@
 export default {
   siteName: 'HBO Max Watch Party',
+  url:"https://www.hbomaxwatchparty.com/",
   extLink: {
     chrome:
       'https://chrome.google.com/webstore/detail/hbo-watch-party/dnpipngojkejflmgjolflengnoegnffa',
-    firefox: '',
-    edge: '',
+    firefox: 'https://addons.mozilla.org/addon/hbo-max-watch-party/',
+    edge: 'https://microsoftedge.microsoft.com/addons/detail/plgjjiaboocjgdnedfjoiailbgfndami',
   },
   logo: 'https://www.hbomaxwatchparty.com/wp-content/uploads/2022/04/logo-8.png',
   section: {
@@ -184,6 +185,6 @@ export default {
   },
   footer: {
       subheading: "Get it, its free!",
-      title: "Im ready, Give me HBO Watch Party",
+      title: "I'm ready, Give me HBO Watch Party",
   },
 }

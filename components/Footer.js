@@ -15,7 +15,7 @@ function Footer() {
        <div className=' mt-8 flex items-center  justify-center'>
            <p className='primary_text_color text-xl font-semibold pb-5'>{siteConfig.footer.subheading}</p>
        </div>
-       <div className='heading container flex items-center justify-center'>
+       <div className='heading container flex items-center justify-center pl-[90px]'>
             <h3 className='primary_text_color text-xl md:text-3xl font-bold'>{siteConfig.footer.title}</h3>
        </div>
        

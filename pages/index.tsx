@@ -8,14 +8,23 @@ import Fask_ques from "../components/Fask_ques"
 import Footer from "../components/Footer"
 import Script from 'next/script'
 
+export async function getStaticProps(){
+  return {
+    props:{
+      meta:{
+        title:"HBO Max Watch Party - Sync with Your Friends | HBO Max Party",
+        description:"HBO Max Watch Party allows you to Stream HBO Max with friends/family, anytime, anywhere! Install HBO Max Party Extension Now.",
+        keywords:"HBO Watch Party, Watch Party HBO Max, HBO Go Watch Party, HBO Max Watch Party, HBO Party, HBO Max Party",
+        pageUrl:"https://www.hbomaxwatchparty.com/",
+        featuredImage:""
+      }
+    }
+  }
+}
 
 const Home: NextPage = () => {
   return (
     <div className="">
-      <Head>
-        <title>Hbo-Watch</title>
-        <link rel="icon" href="/favicon.ico" style={{objectFit: "contain"}} />
-      </Head>
       <Head>
         <link
           rel="stylesheet"
