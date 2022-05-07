@@ -3,7 +3,6 @@ import React from 'react'
 function Seotags({ meta }) {
   return (
     <>
-      
       <meta name="description" content={meta.description} />
       <meta name="keywords" content={meta.keywords} />
       <link rel="canonical" href={meta.pageUrl} />
