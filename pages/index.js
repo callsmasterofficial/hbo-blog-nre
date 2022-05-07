@@ -1,4 +1,4 @@
-import type { NextPage } from 'next'
+
 import Head from 'next/head'
 import Navbar from "../components/Navbar" 
 import Banner from "../components/Banner"
@@ -22,9 +22,10 @@ export async function getStaticProps(){
   }
 }
 
-const Home: NextPage = () => {
+
+const Home = () => {
   return (
-    <div className="">
+    <div>
       <Head>
         <link
           rel="stylesheet"
@@ -33,10 +34,6 @@ const Home: NextPage = () => {
         <link
           rel="stylesheet"
           href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
-        />
-        <link
-          rel="stylesheet"
-          href="https://cdn.jsdelivr.net/npm/tw-elements/dist/css/index.min.css"
         />
       </Head>
       <Script src="https://cdn.tailwindcss.com" />

@@ -25,6 +25,7 @@ return(
         transition
         focus:outline-none
         mt-2
+        collapsed
       "
       type="button"
       data-bs-toggle="collapse"

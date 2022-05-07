@@ -15,7 +15,7 @@ function Footer() {
        <div className=' mt-8 flex items-center  justify-center'>
            <p className='primary_text_color text-xl font-semibold pb-5'>{siteConfig.footer.subheading}</p>
        </div>
-       <div className='heading container flex items-center justify-center pl-[90px]'>
+       <div className='heading flex items-center justify-center'>
             <h3 className='primary_text_color text-xl md:text-3xl font-bold'>{siteConfig.footer.title}</h3>
        </div>
        
@@ -25,7 +25,7 @@ function Footer() {
           </div>
           
          <button className='bg-red-700 rounded-[4px] mb-5 -mt-6 md:mt-0 p-2 w-auto text-xl flex items-center justify-center' >
-           <span className='font-bold px-2 text-base text-white ' onClick={()=>router.push("/blog")}>Blog</span>
+           <span className='font-bold px-2 text-base text-white ' onClick={()=>router.push("/blogs")}>Blog</span>
          </button>
          
        </div>
