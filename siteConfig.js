@@ -1,13 +1,15 @@
 export default {
   siteName: 'HBO Max Watch Party',
-  url:"https://www.hbomaxwatchparty.com/",
+  // url:"https://www.hbomaxwatchparty.com/",
+  url:"http://localhost:3000/",
+  siteId: "627129970f3a125f6c30d9e8",
   extLink: {
     chrome:
       'https://chrome.google.com/webstore/detail/hbo-watch-party/dnpipngojkejflmgjolflengnoegnffa',
     firefox: 'https://addons.mozilla.org/addon/hbo-max-watch-party/',
     edge: 'https://microsoftedge.microsoft.com/addons/detail/plgjjiaboocjgdnedfjoiailbgfndami',
   },
-  logo: 'https://www.hbomaxwatchparty.com/wp-content/uploads/2022/04/logo-8.png',
+  logo: '/logo.png',
   section: {
     first: {
       heading: 'Stream HBO Max with friends/family, anytime, anywhere!',
